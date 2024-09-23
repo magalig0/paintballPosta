@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Sedes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body_reservas">
+    <h1>SEDES</h1>
+    <div class="sedes">
+        <ul>
+            <li>
+                <a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d398.7037210560378!2d-71.64240900730093!3d-40.7639375935272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610bf69ce7e911b%3A0x306d723b501e68c4!2sLas%20Frambuesas%20262%2C%20Q8407%20Villa%20La%20Angostura%2C%20Neuqu%C3%A9n!5e1!3m2!1ses-419!2sar!4v1726933331856!5m2!1ses-419!2sar" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4124.845912945276!2d-58.54226202349683!3d-34.54888887297397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb74eedb474cf%3A0x1045dbefeeebdc44!2sM.%20Silva%203898%2C%20B1653%20San%20Andres%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1726933625865!5m2!1ses-419!2sar" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4116.811229971284!2d-58.55904912349122!3d-34.71064727291611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5ff100d1113%3A0x7b934a9db080dd4e!2sAv.%20Crovara%2013%2C%20B1778%20Cdad.%20Evita%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e1!3m2!1sen!2sus!4v1726933768321!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2060.650933536955!2d-58.54100190987036!3d-34.62032097313179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7e30309b8db%3A0xccfd2905ea5ce9bc!2sAv.%20Militar%203001%2C%20B1703%20Ciudadela%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e1!3m2!1sen!2sus!4v1726933970151!5m2!1sen!2sus"
+                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d866.7413870421484!2d-58.42970520004069!3d-34.58731763688485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb588a3c86017%3A0xf991689d72b6e7d6!2sRussel%205051%2C%20C1414BRC%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires%2C%20Argentina!5e1!3m2!1sen!2sus!4v1726934064809!5m2!1sen!2sus" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4123.171647229363!2d-58.46849612349575!3d-34.58265067296181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb60b27698025%3A0x727087d1badb5f4!2sFraga%201577%2C%20C1427%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires%2C%20Argentina!5e1!3m2!1sen!2sus!4v1726934126417!5m2!1sen!2sus"
+                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <h2>Reserva tu sede</h2>
+    <form id="reservationForm" method="POST" action="reservas.php">
+        <label for="location">Selecciona una sede:</label>
+        <select id="location" name="sede" required>
+            <option value="Sede 1">Sede 1 - Villa La Angostura</option>
+            <option value="Sede 2">Sede 2 - La Rana</option>
+            <option value="Sede 3">Sede 3 - Puerta De Hierro</option>
+            <option value="Sede 4">Sede 4 - Fuerte Apache</option>
+            <option value="Sede 5">Sede 5 - Palermo Soho</option>
+            <option value="Sede 6">Sede 6 - Villa Ortuzar</option>
+        </select>
+
+        <label for="schedule">Selecciona un horario:</label>
+        <select id="schedule" name="horario" required>
+            <option value="9:00 - 10:00">9:00 - 10:00</option>
+            <option value="10:00 - 11:00">10:00 - 11:00</option>
+            <option value="11:00 - 12:00">11:00 - 12:00</option>
+            <option value="12:00 - 13:00">12:00 - 13:00</option>
+            <option value="13:00 - 14:00">13:00 - 14:00</option>
+        </select>
+
+        <label for="fecha">Fecha de Reserva:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <button type="submit">Reservar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
